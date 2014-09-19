@@ -14,6 +14,7 @@
 		F037DDFF19C98DB9008B0691 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F037DDFE19C98DB9008B0691 /* Images.xcassets */; };
 		F037DE0219C98DB9008B0691 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F037DE0019C98DB9008B0691 /* LaunchScreen.xib */; };
 		F037DE0E19C98DB9008B0691 /* NeoTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037DE0D19C98DB9008B0691 /* NeoTodoListTests.swift */; };
+		F037DE1819C98E25008B0691 /* TodoManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037DE1719C98E25008B0691 /* TodoManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		F037DE0719C98DB9008B0691 /* NeoTodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoTodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F037DE0C19C98DB9008B0691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F037DE0D19C98DB9008B0691 /* NeoTodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTodoListTests.swift; sourceTree = "<group>"; };
+		F037DE1719C98E25008B0691 /* TodoManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoManger.swift; sourceTree = "<group>"; };
+		F090F19619CAC46A005919E6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				F037DDF719C98DB9008B0691 /* FirstViewController.swift */,
 				F037DDF919C98DB9008B0691 /* SecondViewController.swift */,
 				F037DDFB19C98DB9008B0691 /* Main.storyboard */,
+				F037DE1719C98E25008B0691 /* TodoManger.swift */,
+				F090F19619CAC46A005919E6 /* MyPlayground.playground */,
 				F037DDFE19C98DB9008B0691 /* Images.xcassets */,
 				F037DE0019C98DB9008B0691 /* LaunchScreen.xib */,
 				F037DDF319C98DB9008B0691 /* Supporting Files */,
@@ -218,6 +223,7 @@
 				F037DDFA19C98DB9008B0691 /* SecondViewController.swift in Sources */,
 				F037DDF619C98DB9008B0691 /* AppDelegate.swift in Sources */,
 				F037DDF819C98DB9008B0691 /* FirstViewController.swift in Sources */,
+				F037DE1819C98E25008B0691 /* TodoManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +415,7 @@
 				F037DE1319C98DB9008B0691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F037DE1419C98DB9008B0691 /* Build configuration list for PBXNativeTarget "NeoTodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				F037DE1619C98DB9008B0691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
